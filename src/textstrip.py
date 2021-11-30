@@ -1,6 +1,7 @@
 ####################################################################
 #   Program to strip out special characters from string arguments  #
-#                   By Julian Aguirre                              #
+#                   By: Julian Aguirre                             #
+#                   Date: 11/29/2021                               #
 ####################################################################
 import re 
 import sys

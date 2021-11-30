@@ -1,15 +1,12 @@
-############################################################
-#   Program to strip out special characters from a string  #
-#                   By Julian Aguirre                      #
-#############################################################
+####################################################################
+#   Program to strip out special characters from string arguments  #
+#                   By Julian Aguirre                              #
+####################################################################
 import re 
 import sys
 
-
-
-
+j = 123
 arg_list = []
-arg = ''
 
 def get_arguments():
     n = len(sys.argv)

@@ -8,12 +8,18 @@ import sys
 
 
 
-arg = sys.argv[1]
+arg_list = []
+arg = ''
 
-def main(arg):
-    target_str = arg 
-    result = re.sub(r"\D","",arg)
-    print(result)
+def get_arguments():
+    n = len(sys.argv)
+    for i in range(1, n):
+        arg_list.append(sys.argv[i])
+
+def main(arg_list):
+    for i in arg_list:
+        result = re.sub(r"\D","",i)
+        print(result)
     
-
-main(arg)
+get_arguments()
+main(arg_list)

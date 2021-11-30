@@ -5,7 +5,7 @@
 import re 
 import sys
 
-j = 123
+
 arg_list = []
 
 def get_arguments():

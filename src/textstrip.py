@@ -3,6 +3,12 @@
 #                   By Julian Aguirre                      #
 #############################################################
 import re 
+import sys
+
+
+
+
+arg = sys.argv[1]
 
 def main(arg):
     target_str = arg 
@@ -10,4 +16,4 @@ def main(arg):
     print(result)
     
 
-main("3-3-3-3-3-3-3-3-3-3-3-3")
+main(arg)
